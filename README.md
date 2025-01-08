@@ -4,9 +4,13 @@ This repository contains an implementation of M3-S for the CVPR 2023 paper "Modu
 
 |             | Memento10k | VideoMem |
 | ----------- |:----------:|:--------:|
-| M3-S (ours) |   0.670    |  0.563   |
+| M3-S  |   0.670    |  0.563   |
 
+:warning: These scores are achieved by training the whole network architecture, and not only the prediction MLP. At the present time, only the MLP finetuning is available on this repository, yielding the following scores. We apologize for the inconvenience and the lack of exact reproducibility of our results this implies. 
 
+|  | Memento10k | VideoMem |
+| ----------- |:----------:|:--------:|
+| M3-S (training MLP only) |   0.6355   |  0.5158  |
 
 ## Code overview
 Here are the main files and folders:
